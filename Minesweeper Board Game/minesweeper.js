@@ -83,8 +83,6 @@ if(playerBoard[rowIndex][columnIndex] !== ''){
 const printBoard = board => {console.log(board.map(row => row.join(' | ')).join('\n'));};
 
 
-
-
 let playerBoard = generatePlayerBoard(3, 3);
 let bombBoard = generateBombBoard(3, 3, 3);
 
